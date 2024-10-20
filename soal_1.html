@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                background-color: rgb(194, 231, 231);
+            }
+
+            .flex-container > div {
+                background-color: rgb(90, 191, 219);
+                color: rgb(6, 6, 109);
+                width: 500px;
+                margin: 5px 5px;
+                text-align: center;
+                line-height:auto;
+                font-size: 30px;
+                padding: auto;
+                border-radius: 10px; 
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+         <div style="order : 1;">I am small</div>
+         <div style="order : 2;">I have more content than the very small item.</div>
+         <div style="order : 3;">I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words then expected!</div>
+        </div>
+   </body>
+</html>

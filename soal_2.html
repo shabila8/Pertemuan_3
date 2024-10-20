@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" herf="./style.css">
+    
+<style>
+    .b {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #d1dde7;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 50px;
+    }
+
+    .b > div {
+    color: aliceblue;
+    background-color: rgb(54, 117, 171);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    }
+
+   .ba { 
+         grid-column: span 8;
+         width: 93%;
+    
+    }
+    .bi {
+        grid-column: span 1.5;
+         width: 90%;
+    }
+
+    .bu {
+        grid-column: 9/2;
+    }
+
+    .be {
+    grid-column: 9/2;
+    }
+    </style>
+</head>
+<body>
+    <div class="b">
+        <div class="ba">One</div>
+        <div class="bi">Two</div>
+        <div class="bu">Three</div>
+        <div class="be">Four</div>
+    </div>
+</body>
+</html>
